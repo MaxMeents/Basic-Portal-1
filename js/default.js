@@ -15,12 +15,7 @@ progress through stages where
   }
 
 $('.Songs_Album').parent().addClass('Album');
-$('.Songs_Album').click(function(){
-  var offset = $(this).offset();
-  $('.Game').animate({
-    scrollTop: offset.top,
-});
-})
+
 
 
 $('.toggle').click(function(e) {
